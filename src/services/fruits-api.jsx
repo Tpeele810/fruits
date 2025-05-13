@@ -1,6 +1,6 @@
 import axios from 'axios'
-const baseURL = "http://localhost:3000/fruits"
-
+//const baseURL = "http://localhost:3000/fruits"
+const baseURL = 'https://fruits-backend-k2yn.onrender.com/fruits'
 //Show all Fruits 
 
 export const getFruits = async() => {
